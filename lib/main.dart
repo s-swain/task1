@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task1/home_screen.dart';
+import 'bottomNavigation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         body: SingleChildScrollView(
           child: HomeScreen(),
         ),
+        bottomNavigationBar: BottomNavigation(),
       ),
     );
   }
